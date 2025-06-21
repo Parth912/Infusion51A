@@ -1,0 +1,94 @@
+{
+  "name": "atlantis-react-ts",
+  "version": "8.0.1",
+  "private": true,
+  "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/modifiers": "^7.0.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@fortune-sheet/react": "^0.19.16",
+    "@fullcalendar/core": "^5.7.2",
+    "@fullcalendar/daygrid": "^5.7.2",
+    "@fullcalendar/interaction": "^5.7.2",
+    "@fullcalendar/react": "^5.7.0",
+    "@fullcalendar/timegrid": "^5.7.2",
+    "@react-google-maps/api": "^2.19.2",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf-viewer/zoom": "^3.12.0",
+    "@react-pdf/renderer": "^4.1.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.57",
+    "@types/prismjs": "1.9.0",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-pdf": "^7.0.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-signature-canvas": "^1.0.6",
+    "@types/react-transition-group": "^4.4.1",
+    "axios": "^0.25.0",
+    "base64-url": "^2.3.3",
+    "buffer": "^6.0.3",
+    "chart.js": "^3.9.1",
+    "date-fns": "^3.6.0",
+    "html-react-parser": "^5.1.10",
+    "moment": "^2.29.1",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^2.16.105",
+    "prettier": "2.7.1",
+    "primeflex": "^3.2.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^8.7.3",
+    "prismjs": "1.9.0",
+    "quill": "^1.3.7",
+    "react": "18.2.0",
+    "react-csv": "^2.2.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.3.0",
+    "react-pdf": "^9.1.0",
+    "react-pdf-viewer": "^0.1.0",
+    "react-router-dom": "6.3.0",
+    "react-scripts": "5.0.1",
+    "react-signature-canvas": "^1.0.6",
+    "react-speech-recognition": "^3.10.0",
+    "react-transition-group": "^4.4.1",
+    "react-trello": "^2.2.11",
+    "sass": "^1.54.8",
+    "typescript": "^4.8.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{js,ts,tsx}\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/base64-url": "^2.2.2",
+    "@types/react": "^18.0.28",
+    "@types/react-csv": "^1.1.3",
+    "@types/react-modal": "^3.16.3",
+    "@types/react-speech-recognition": "^3.9.5"
+  }
+}
