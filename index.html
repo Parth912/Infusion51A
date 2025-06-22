@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Venture Studio</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="theme-color" content="#000000" />
+	<meta name="description" content="Venture Studio" />
+
+	<link rel="icon" href="%PUBLIC_URL%/fav-icon.png" />
+	<link id="theme-css" rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/theme/mytheme/theme-light.css">
+	<link id="layout-css" rel="stylesheet" type="text/css"
+		href="%PUBLIC_URL%/assets/layout/css/mytheme/layout-light.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+</head>
+
+<body>
+	<noscript>
+		<strong>We're sorry but Infusion51a Admin Panel doesn't work properly without JavaScript enabled. Please enable
+			it to continue.</strong>
+	</noscript>
+	<div id="root">
+		<div class="loading-wrapper">
+			<svg class="loader12" height="57" stroke="#fff" viewBox="0 0 57 57" width="57"
+				xmlns="http://www.w3.org/2000/svg">
+				<g fill-rule="evenodd" fill="none">
+					<g stroke-width="2" transform="translate(1 1)">
+						<circle class="loader12__path-left" cx="5" cy="50" r="5"></circle>
+						<circle class="loader12__path-top" cx="27" cy="5" r="5"></circle>
+						<circle class="loader12__path-right" cx="50" cy="50" r="5"></circle>
+					</g>
+				</g>
+			</svg>
+		</div>
+	</div>
+	<script>
+		const pointerScroll = (elem) => {
+
+			const dragStart = (ev) => elem.setPointerCapture(ev.pointerId);
+			const dragEnd = (ev) => elem.releasePointerCapture(ev.pointerId);
+			const drag = (ev) => elem.hasPointerCapture(ev.pointerId) && (elem.scrollLeft -= ev.movementX);
+
+			elem.addEventListener("pointerdown", dragStart);
+			elem.addEventListener("pointerup", dragEnd);
+			elem.addEventListener("pointermove", drag);
+		};
+
+		document.querySelectorAll(".parent").forEach(pointerScroll);
+	</script>
+	<script>
+		// const loader12Timeline = new TimelineMax({ repeat: -1 });
+		// loader12Timeline.to('.loader12__path-top', 0.75, {
+		// 	attr: {
+		// 		cx: 50,
+		// 		cy: 50
+		// 	}
+		// }, "l12_1")
+		// 	.to('.loader12__path-left', 0.75, {
+		// 		attr: {
+		// 			cx: 27,
+		// 			cy: 5
+		// 		}
+		// 	}, "l12_1")
+		// 	.to('.loader12__path-right', 0.75, {
+		// 		attr: {
+		// 			cx: 5,
+		// 			cy: 50
+		// 		}
+		// 	}, "l12_1");
+	</script>
+</body>
+
+</html>
